@@ -1,12 +1,13 @@
 #include <iostream>
 #include <string>
 
-
 int main()
 {
+        //NÃ£o finalizado, aos poucos vou adicionando coisas a mais.
+	
 	std::string username, senha, RespostaCerta;
 	std::string username2, senha2, RespostaCerta2;
-	char Autenticaçao;
+	char AutenticaÃ§ao;
 
 	std::cout << "Crie um um nome de usuario: ";
 	std::cin >> username;	
@@ -15,7 +16,7 @@ int main()
 
 	RespostaCerta == (senha, username);
 
-	std::cout << "Faça login, informe seu username: ";
+	std::cout << "FaÃ§a login, informe seu username: ";
 	std::cin >> username2;	
 	std::cout << "Informe sua senha: ";
 	std::cin >> senha2;
