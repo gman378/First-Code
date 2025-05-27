@@ -3,12 +3,14 @@
 
 int main()
 {
+    //App de banco n√£o finalizado, irei finalizar.
+	
 	std::string SenhaAcesso;
 	std::string SenhaDigitada;
 	std::string UserName;
 	bool AcessoPermitido;
 	double Saldo;
-	int OpÁao;
+	int Op√ßao;
 	double ValorSaque;	
 	double ValorDeposito;
 
@@ -35,9 +37,9 @@ int main()
 			std::cout << "1 - Sacar" << "\n";
 			std::cout << "2 - Depositar" << "\n";
 			std::cout << "3 - Sair" << "\n";
-			std::cin >> OpÁao;
+			std::cin >> Op√ßao;
 
-			switch (OpÁao)
+			switch (Op√ßao)
 			{
 			case '1':
 			{
@@ -69,7 +71,7 @@ int main()
 		
 		AcessoPermitido = false;
 
-		//Aqui o programa detecta que a senha digitada È errada, e nega o acesso.
+		//Aqui o programa detecta que a senha digitada √© errada, e nega o acesso.
 
 		return 0;
 	}
